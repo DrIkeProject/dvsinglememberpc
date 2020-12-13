@@ -1,14 +1,14 @@
 :root {
   /* Fonts */
   --title-font: "Girassol", cursive;
-  --main-font: "Castoro", serif;
+  --main-font: "Noto Serif", serif;
   /* Colors */
-  --white-color: #888585;
+  --white-color: #949494;
   --black-color: #1d1c1c;
   --title-text-color: #212121;
   --primary-text-color: #757575;
-  --accent-color: rgba(238, 212, 141, 0.829);
-  --lighter-accent-color: rgba(238, 212, 141, 0.829);
+  --accent-color: rgba(252, 217, 120, 0.829);
+  --lighter-accent-color: rgba(216, 190, 118, 0.829);
 }
 *,
 *::before,
@@ -258,6 +258,7 @@ img {
   .header-items {
     display: flex;
     justify-content: center;
+    text-align: center;
     margin-top: 45px;
     min-width: 100%;
     font-size: 10px;
@@ -268,7 +269,7 @@ img {
     border-bottom: 1px solid var(--black-color);
   }
   .logo {
-    margin: 50px 10px 10px 375px;
+    margin: 50px 10px -5px 375px;
     flex: 0 0 60px;
     border-radius: 50%;
     overflow: hidden;
