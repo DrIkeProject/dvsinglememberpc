@@ -67,7 +67,7 @@ img {
   animation-iteration-count: 10;
   position: relative;
   z-index: 3;
-  border: 1px solid var(--white-color);
+  border: 1px solid var(--accent-color);
 }
 
 /*==== HEADER ===*/
